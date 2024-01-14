@@ -1,0 +1,231 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0 20px;
+    background: #FFF;
+    position: absolute;
+}
+
+.logo{
+    color: #090909de;
+    letter-spacing: 1px;
+    font-weight:bold;
+    float: left;
+    padding-right: 120px;
+    margin-left: -30px;
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+    margin: 10px 20px;
+}
+
+ nav ul li ul:hover{
+    display: block;
+}
+
+nav ul li a{
+    color: #090909de;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding-bottom:5px;
+}   
+ 
+nav ul li a::after{
+    content: '';
+    width:0;
+    height: 3px;
+    background: #1c7ed6;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li i{
+    color: #090909de;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}  
+
+nav ul li i:hover{
+    color: #1c7ed6;
+}
+.active{
+    color: #1c7ed6;
+    padding-top: 20px;
+}
+
+
+.banner1, .banner2, .banner3, .banner4{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.textbox{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+}
+
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+.textbox p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+
+.textbox span{
+    background: red;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+
+.banner4{
+    animation: slide3 12s linear infinite;
+}
+
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+
+    50%{
+        visibility: hidden;
+    }
+
+    75%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+
+    50%{
+        visibility: visible;
+    }
+
+    75%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3 {
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+
+    50%{
+        visibility: hidden;
+    }
+
+    75%{
+        visibility: visible;
+    }
+
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+
+    25%{
+        visibility: hidden;
+    }
+
+    50%{
+        visibility: hidden;
+    }
+
+    75%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: visible;
+    }
+}
