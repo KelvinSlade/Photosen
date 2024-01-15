@@ -157,7 +157,7 @@ html{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px,380px));
+    grid-template-columns: repeat(auto-fit, minmax(350px,350px));
     grid-gap: 20px;
     margin: 100px 50px;
     justify-content: center;
@@ -185,6 +185,7 @@ html{
 .the-service h1{
     padding-top: 30px;
     padding-bottom: 5px;
+  font-size:25px;
 }
 
 .the-service ul li{
