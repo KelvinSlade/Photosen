@@ -762,9 +762,10 @@ button:hover{
         font-size: 30px;
     }
     .column1 img{
-        width: auto;
-        height: 500px;
+        width: 400px;
+        height: auto;
         padding: 0;
+        overflow:hidden;
     }
 
     .grid-ish{
