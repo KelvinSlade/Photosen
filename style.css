@@ -157,8 +157,8 @@ html{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,350px));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,400px));
+    grid-gap: 50px;
     margin: 100px 50px;
     justify-content: center;
     align-items: center;
