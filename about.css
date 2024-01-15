@@ -434,9 +434,10 @@ footer *{
 @media only screen and (max-width:400px){
 
    .column1 img{
-    width: 350px;
+    width: 400px;
     height: auto;
     padding: 0;
+       overflow:hidden;
 }
 
 .column1 h2{
