@@ -28,12 +28,19 @@ body{
 .active{
     color: #1c7ed6;
     border-bottom: 3px solid #fff;
-
+    padding-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    padding-left:5px;
 }
+
 
 .sticky .active{
     color: #09a6d4;
     border-bottom: 3px solid #111;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 10px;
+    border-bottom-color: #1c7ed6;
+    padding-left:5px;
 }
 .sticky{
     background: #fff;
