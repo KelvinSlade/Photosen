@@ -59,7 +59,11 @@ html{
 }
 
 .active{
-    border-bottom: 2px solid #fff;
+     color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    padding-left:5px;
 }
 
 .icons{
