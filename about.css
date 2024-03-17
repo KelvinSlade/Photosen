@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Niconne&display=swap');
 
 *{
     padding: 0;
@@ -53,10 +54,11 @@ html{
 }
 .logo{
     text-decoration: none;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 3em;
+    font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
+    font-family:'Niconne';
 }
 
 .sticky .logo{
@@ -565,7 +567,7 @@ iframe{
 
 .curved-div {
   position: relative;
-  background:url('slider/p3.jpg')no-repeat;
+  background:url('slider/p1.jpg')no-repeat;
   background-position: center;
   background-size: cover;
   color: #FFF;
