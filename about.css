@@ -362,7 +362,7 @@ html{
     box-shadow: 0 0 2.2em rgba(15, 0, 58, 0.1);
     padding: 3.5em 1em;
     border-radius: 0.6em;
-    color: #1f003b;
+    color: #fff;
     cursor: pointer;
     transition: 0.3s;
     background:#1c7ed6;
@@ -397,7 +397,7 @@ html{
 }
 .card a{
     text-decoration: none;
-    color: inherit;
+    color: #fff;
     font-size: 1.4em;
 }
 .card:hover{
