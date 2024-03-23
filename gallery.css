@@ -47,7 +47,7 @@ html{
     border-bottom-color: #1c7ed6;  padding-right:5px;
 }
 .sticky{
-    background: #111;
+    background: #222;
     box-shadow: 3px 1px 0px #0000000b;
     transition: 1s ease;
 }
@@ -218,12 +218,14 @@ html{
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    background:#fff;
+    background:#111;
     padding: 5px 10px;
-    color: #090909de;
+    color: #111;
     border-radius: 30px;
     font-family: "Poppins";
     margin-top: 0px;
+    border:solid 1px #1c7ed6;
+ 
     
 }
 
