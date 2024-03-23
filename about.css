@@ -10,7 +10,7 @@
 }
 
 body{
-    background:#FFF ;
+    background:#111;
 }
 
 html{
@@ -48,7 +48,7 @@ html{
       padding-right:5px;
 }
 .sticky{
-    background: #fff;
+    background: #222;
     box-shadow: 3px 1px 0px #0000000b;
     transition: 1s ease;
 }
@@ -62,7 +62,7 @@ html{
 }
 
 .sticky .logo{
-    color: #090909de;
+    color: #fff;
 }
 
 .logo img{
@@ -76,14 +76,13 @@ html{
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
-   
     font-weight: 700px;
     font-family: 'Poppins',Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
 .sticky .navbar a{
-    color: #090909de;
+    color: #fff;
 }
 
 .icons{
@@ -195,7 +194,7 @@ html{
     padding-top: 100px;
     font-weight: bold;
     font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
-    color: #090909de;
+    color: #fff;
     text-transform: uppercase;
     margin-bottom: 100px;
 }
@@ -221,7 +220,7 @@ html{
 .column1 p{
     font-size: 13px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
-    color: #090909de;
+    color: #fff;
     line-height: 25px;
     padding: 0 60px;
 }
@@ -230,7 +229,7 @@ html{
     text-align: center;
     font-size: 35px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
-    color: #090909de;
+    color: #fff;
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -253,7 +252,7 @@ html{
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.2;
-    color: #333;
+    color: #fff;
     letter-spacing: 1px;
 }
 
@@ -262,7 +261,7 @@ html{
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.2;
-    color: #333;
+    color: #fff;
     letter-spacing: 1px;
 }
 
@@ -357,7 +356,7 @@ html{
     width: 100%;
     text-align: center;
     font-size: 20px;
-    color: #1f003b;
+    color: #fff;
 }
 .card{
     box-shadow: 0 0 2.2em rgba(15, 0, 58, 0.1);
@@ -366,6 +365,7 @@ html{
     color: #1f003b;
     cursor: pointer;
     transition: 0.3s;
+    background:#111;
 }
 .card .img-container{
     width: 8em;
