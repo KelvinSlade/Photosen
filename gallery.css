@@ -12,7 +12,7 @@
 }
 
 body{
-    background:#FFF ;
+    background:#111 ;
 }   
 
 html{
@@ -201,7 +201,7 @@ html{
     display: block;
     text-decoration: none;
     padding: 12px 16px;
-    color: #090909c8;
+    color: #fff;
 }
 .tab-titles{
     display: flex;
