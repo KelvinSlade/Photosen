@@ -8,7 +8,7 @@
 }
 
 body{
-    background:#FFF ;
+    background:#111;
 }
 
 html{
@@ -43,7 +43,7 @@ html{
     border-bottom-color: #1c7ed6;   padding-right:5px;
 }
 .sticky{
-    background: #fff;
+    background: #222;
     box-shadow: 3px 1px 0px #0000000b;
     transition: 1s ease;
 }
@@ -56,7 +56,7 @@ html{
 }
 
 .sticky .logo{
-    color: #090909de;
+    color: #fff;
 }
 
 .logo img{
@@ -70,7 +70,6 @@ html{
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
-   
     font-weight: 700px;
     font-family: 'Poppins',Helvetica, sans-serif;
     text-transform: uppercase;
@@ -83,7 +82,7 @@ html{
 .icons{
     position: absolute  ;
     font-size: 2rem;
-    color: #111;
+    color: #fff;
     cursor: pointer;
     display: none;
     right: 0  ;
@@ -118,7 +117,7 @@ html{
     }
 
     .logo{
-        color: #090909de;
+        color: #fff;
     }
 
     #check:checked~.icons #menu-icon{
@@ -159,6 +158,8 @@ html{
         z-index: -1;
     }
 
+    .sticky{
+         background:#111;
     #check:checked~.navbar{
         height: 17.7rem;
     }
@@ -188,14 +189,14 @@ html{
     margin-bottom: 200px;
     font-weight: bold;
     font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
-    color: #090909de;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 
 .contact{
-    background: #fff;
+    background: #111;
     border: 2px solid #1c7ed6;
     color: #1c7ed6;
     padding: 20px;
@@ -240,7 +241,7 @@ html{
 .column1 p{
     font-size: 15px;
     font-family: 'Poppins';
-    color: #090909de;
+    color: #fff;
     padding: 50px 50px;
     line-height: 25px;
     font-weight: 500;
@@ -250,7 +251,7 @@ html{
     text-align: left;
     font-size: 40px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
-    color: #090909de;
+    color: #fff;
     padding: 15px 0;
     padding-top: 40px;
 }
@@ -261,7 +262,7 @@ html{
     font-weight: bold;
     text-transform: uppercase;
     padding-left: 0;
-    color: #090909de;
+    color: #fff;
 }
 
 
@@ -436,7 +437,7 @@ footer *{
     display: block;
   }
   .curved-div.upper {
-    background: #fff;
+    background: #111;
   }
   .curved-div h1 {
     font-size: 4rem;
