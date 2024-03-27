@@ -79,7 +79,7 @@ html{
 }
 
 .sticky .navbar a{
-    color: #090909de;
+    color: #fff;
 }
 
 .icons{
@@ -198,9 +198,9 @@ html{
 
 
 .contact{
-    background: #fff;
+    background: #1c7ed6;
     border: 2px solid #1c7ed6;
-    color: #1c7ed6;
+    color: #fff;
     padding: 20px;
     border-radius: 30px;
     margin-bottom: 30px;
