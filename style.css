@@ -3,7 +3,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Niconne&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Luxurious+Script&family=Niconne&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Luxurious+Script&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Luxurious+Script&family=Niconne&display=swap');
 
 
 *{
@@ -728,8 +729,8 @@ button:hover{
 
 .column1 h1{
     text-align: left;
-    font-size: 40px;
-    font-family: 'Jost',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-family: 'Lexend',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     color: #fff;
     padding-top: 50px;
@@ -891,7 +892,7 @@ footer{
  footer .menu li a{
     font-size: 1.2em;
     color: #fff;
-    margin: 0 10px;
+    margin: 0 15px;
     display: inline-block;
     text-decoration: none;
     opacity: 0.75;
@@ -906,7 +907,8 @@ footer{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 13px;
+   
  }
  
  footer .wave{
