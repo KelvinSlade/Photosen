@@ -430,104 +430,127 @@ html{
 /*---------Foooter Sectio------*/
 
 
-footer *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
- }
- 
- footer ul{
-    list-style: none;
- }
- 
- footer{
-    color: #111;
-    background-color:#fff;
-    margin-top:50px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top: 1px solid #1111110f;
-    padding-top: 30px;
-    box-shadow: 0 0 1.2em rgba(15, 0, 58, 0.1);
- }
- 
- 
- footer p{
-    color: #111;
-    max-width: 25em;
-    font-size: 0.9em;
-    line-height: 23px;
-    font-weight: 500;
-    padding-bottom: 20px;
- }
- 
- footer a{
-    color: #111;
-    text-decoration: none;
-    font-weight: 500;
- }
- 
- 
- .brand{
-    display: block;
-    font-size: 1.8em;
-    font-weight: 600;
-    margin-bottom: 1em;
-    padding: 50px;
- }
- 
- .media-icons li{
-    display: inline-block;
-    margin: 0.5em 0.5em 0.5em 0;
- }
- 
- .container ul .amigo li{
-    display: inline-block;
- }
- .media-icons a{
-    font-size: 25px;
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
+
+footer{
+    position: relative;
+    width:100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s ;
-    display: inline-block;
+    flex-direction: column;
+  font-family:'Poppins';
+ }
+ footer .social_icon,
+ footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
  }
  
+ footer .social_icon li, 
+ footer .menu li{
+    list-style: none;
+ }
  
+ footer .social_icon li a{
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+ }
  
- .footer4 .menu a{
-    transition: 0.3s;
-    font-weight: 600;
-    color: #111;
+ footer .social_icon li a:hover{
+    transform: translateY(-10px);
+ }
+ 
+ footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 15px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+ }
+ 
+ footer .menu li a:hover{
+    opacity: 1;
+ }
+ 
+ footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
+   
  }
  
+ footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0px   ;
+    width: 100%;
+    height: 100px;
+    background:url('wave.png');
+    background-size: 1000px 100px;
+ }
  
- 
- .footer4{
-    text-align: center;
- }
- .footer4 .menu li{
-    display: inline-block;
-    margin: 0.7em;
-    text-align: center;
+ footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
  }
  
- .footer4 p{
-    margin: 0 auto;
+ footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
  }
- .footer4 .media-icons{
-    margin: 1.5em 0 ;
-    display: inline-block;
+ 
+ footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
  }
-
-
+ 
+ footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+ }
+ @keyframes animateWave 
+ {
+    0%{
+       background-position-x: 100px;
+    }
+ 
+    100%{
+       background-position-x: 0px;
+    }
+ }
+ 
+ @keyframes  animateWave_02
+ {
+    0%{
+       background-position-x: 0px;
+    }
+ 
+    100%{
+       background-position-x: 1000px;
+    }
+ }
+ 
 
 @media only screen and (max-width:400px){
 
