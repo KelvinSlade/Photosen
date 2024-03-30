@@ -529,6 +529,7 @@ button:hover{
    height: 105vh;
     display: none;
     overflow: hidden;
+    background: #fff;
     
 } 
 .prevv, .nextt{
@@ -574,7 +575,7 @@ button:hover{
 }
 
 .txt a{
-    background: #09a6d4;
+    background: #1c7ed6;
     padding: 15px 20px;
     font-size: 1.1em;
     font-weight: 500;
