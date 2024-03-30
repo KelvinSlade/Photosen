@@ -540,7 +540,7 @@ button:hover{
 
 .mysslider img{
     object-fit: cover;
-    object-position: center;
+    object-position: center;background: #fff;
     
 }
 
@@ -725,8 +725,8 @@ button:hover{
 
 .column1 h1{
     text-align: left;
-    font-size: 30px;
-    font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-family: 'Niconne',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: #fff;
     padding-top: 50px;
@@ -873,7 +873,7 @@ footer{
  }
  
  footer .social_icon li a{
-    font-size: 1em;
+    font-size: 1.5em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
