@@ -215,8 +215,8 @@ body{
     margin-bottom: 30px;
 }
 .contact-form .text-box{
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     border: none;
     width: calc(50% - 10px);
     height: 50px;
@@ -231,9 +231,9 @@ body{
     margin-right: 15px;
 }
 .contact-form textarea{
-    background: #000;
+    background: #fff;
     width: 100%;
-    color: #fff;
+    color: #000;
     border: none;
     padding: 12px;
     font-size: 15px;
