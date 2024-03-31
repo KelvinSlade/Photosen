@@ -108,6 +108,7 @@ html{
 @media (max-width:768px){
     .icons{
         display: inline-flex;
+     color:#fff;
     }
     .navbar .active{
         color: #1c7ed6 !important;
@@ -120,6 +121,7 @@ html{
 
     .icons #close-icon{
         display: none;
+     color:#fff;
     }
 
     .logo{
