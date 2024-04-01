@@ -203,7 +203,7 @@ html{
 .grid-ish{
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0 50px;
     margin-bottom: 80px;
 }
 
@@ -215,7 +215,7 @@ html{
     width:auto;
     height:500px;
     padding: 30px;
-    padding-top: 110px;
+    padding-top: 90px;
 }
 
 .column1 p{
