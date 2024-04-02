@@ -609,22 +609,7 @@ button:hover{
     }
 }
 
-@-webkit-keyframes zoomin{
-    from{
-            transform: scale(1, 1);
-    }
-    to{
-        transform: scale(1.5, 1.5);
-    }
-}
-@keyframes zoomin{
-    from{
-            transform: scale(1, 1);
-    }
-    to{
-        transform: scale(1.5, 1.5);
-    }
-}
+
 
 .fade{
     -webkit-animation-name: fade;
