@@ -224,7 +224,7 @@ html{
     color: #090909de;
     border-radius: 30px;
     font-family: "Poppins";
-    margin-top: 0px;
+    margin-top: 10px;
     
 }
 
@@ -1168,6 +1168,14 @@ footer{
         margin: 0 auto;
         padding: 0;
     }
+ .tab-contents.active-tab{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+    padding: 20px 10px;
+}
+
     .grid-wrap2 ul{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(5px,auto));
