@@ -554,7 +554,7 @@ button:hover{
     position: absolute;
     color: #fff;
     letter-spacing: 2px;
-    top: 20%;
+    top: 40%;
     left: 10%;
     z-index: 888;
     color: #fff;
@@ -779,7 +779,6 @@ button:hover{
     .column1 img{
         width: auto;
       height:220px;
-        height: auto;
         padding: 0;
         overflow:hidden;
     }
@@ -796,6 +795,22 @@ button:hover{
     .grid-ish{
         overflow: hidden;
     }
+
+  .txt{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 2px;
+    top: 20%;
+    left: 10%;
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    -webkit-animation-name: posi;
+    -webkit-animation-duration: 2s;
+    animation-name: posi;
+    animation-duration: 2s;
+    z-index: 1;
+}
     
     .txt h1{
         font-size: 3rem;
