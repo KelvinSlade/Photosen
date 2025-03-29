@@ -658,7 +658,7 @@ button:hover{
 /*--------Our Services------*/
 
 .our-services{
-    min-height: 110vh;
+    height: 100vh;
     width: 100%;
     background-image:url('images/slide/reddress.jpg');
     background-size: cover;
