@@ -176,6 +176,8 @@ html{
     align-items: center;
     cursor: pointer;
     overflow: hidden;
+  background-image:url('images/slide/reddress.jpg');
+  background-position:center;
 }
 
 .work2{
@@ -660,7 +662,7 @@ button:hover{
 .our-services{
     min-height: 110vh;
     width: 100%;
-    background-image:url('images/slide/reddress.jpg');
+    background-color:red;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -839,6 +841,8 @@ button:hover{
         align-items: center;
         cursor: pointer;
         overflow: hidden;
+        background:url('images/slide/reddress.jpg');
+      background-position:center;
     }
 
     .our-services h1{
