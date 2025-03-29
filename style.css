@@ -660,7 +660,7 @@ button:hover{
 .our-services{
     min-height: 110vh;
     width: 100%;
-    background:url('images/slide/reddress.jpg');
+    background-image:url('images/slide/reddress.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
