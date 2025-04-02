@@ -212,8 +212,8 @@ html{
 }
 
 .column1 img{
-    width:auto;
-    height:200px;
+    width:400px;
+    height:auto;
     padding: 30px;
     padding-top: 90px;
 }
