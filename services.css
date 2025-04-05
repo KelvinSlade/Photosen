@@ -216,12 +216,12 @@ html{
     background:#fff;
     color:#111;
  border:none;
- transition:2s;
+ transition:0.5s;
 }
 
 .yellow{
-    background:  #ec5f1d;
-    color: #111;
+    background:  #e93b3b;
+    color: #fff;
     padding: 20px;
     border-radius: 30px;
     margin-bottom: 30px;
@@ -232,7 +232,7 @@ html{
     background:red;
     color:#fff;
  border:none;
- transition:2s;
+ transition:0.5s;
 }
 
 
