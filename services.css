@@ -220,7 +220,7 @@ html{
 }
 
 .yellow{
-    background:#e41a1a;
+    background:rgb(255, 25, 25);
     color: #fff;
     padding: 20px;
     border-radius: 30px;
