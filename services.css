@@ -209,17 +209,26 @@ html{
     border-radius: 30px;
     margin-bottom: 30px;
     margin-left:50px ;
+ cursor:pointer;
 
+}
+.contact:hover{
+    background:#fff;
+    color:#111;
 }
 
 .yellow{
-    background: yellow;
+    background: orange;
     color: #111;
     padding: 20px;
     border-radius: 30px;
     margin-bottom: 30px;
     margin-left:50px ;
-
+    cursor:pointer;
+}
+.yellow:hover{
+    background:#1c7ed6;
+    color:#fff;
 }
 
 
