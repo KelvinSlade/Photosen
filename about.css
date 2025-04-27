@@ -213,14 +213,15 @@ html{
 }
 
 .column1 img{
-    width:46%;
+    width:100%;
+ height:auto;
     padding: 30px;
     padding-top: 90px;
 }
 
+.column1{ width:48%;}
 
-
-.column1 p{
+.column2 p{
     font-size: 13px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
@@ -228,7 +229,7 @@ html{
     padding: 0 60px;
 }
 
-.column1 h2{
+.column2 h2{
     text-align: center;
     font-size: 35px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
