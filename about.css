@@ -212,14 +212,11 @@ html{
     flex: 1 1 50%;
 }
 
-.column1 img{
-    width:100%;
- height:auto;
-    padding: 30px;
-    padding-top: 90px;
-}
 
-.column1{ width:48%;}
+
+.column1{ width:48%;
+        background-image:url('Amaka/amf (27).jpg';
+        height:300px;}
 
 .column2 p{
     font-size: 13px;
