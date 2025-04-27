@@ -214,11 +214,10 @@ html{
 
 
 
-.column1{ width:48%;
-        background-image:url('Amaka/amf (27).jpg';
-        height:300px;}
+.column1 img{ min-width:400px;
+        height:auto;}
 
-.column2 p{
+.column1 p{
     font-size: 13px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
@@ -226,7 +225,7 @@ html{
     padding: 0 60px;
 }
 
-.column2 h2{
+.column1 h2{
     text-align: center;
     font-size: 35px;
     font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
